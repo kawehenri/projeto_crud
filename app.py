@@ -90,7 +90,11 @@ def main():
     remover = Button(janela, text='Remover', width=10,command=lambda:deletar_user(email))
     remover.place(x=100, y=230)
 
+    editar = Button(janela,text='Editar',width=10, command=on_enviar)
+    editar.place(x=200,y=230)
+
     janela.mainloop()
 
 if __name__ == '__main__':
     main()
+    
